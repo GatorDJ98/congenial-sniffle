@@ -20,7 +20,6 @@
         <p class="navbar-brand ps-3"></p>
         <ul class="navbar-nav">
             <li class="navitem"><a class="nav-link" href="https://github.com/GatorDJ98/special-sniffle" target="_blank">Repo Link</a> </li>
-            <li class="navitem"><button id="btnLoadData" class="btn btn-secondary">Load Saved Data</button></li>
             <li class="navitem"><a class="nav-link" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fgatordj98.github.io%2Fspecial-sniffle%2F" target="_blank">Validity Checker</a> </li>
         </ul>
 
@@ -39,7 +38,7 @@
             <div class="col-md-5 offset-md-1 card">
                 <div class="card-body">
 
-                    <label for="time">AM or PM</label>
+                    <h4 class="card-title">AM or PM</h4>
                     <input type="radio" id="am" name="time" value="AM">
 
                     <label for="am">AM</label><br>
@@ -73,26 +72,7 @@
                     <label for="saturday">Saturday</label><br>
                     <input type="checkbox" id="sunday" name="sunday">
                     <label for="sunday">Sunday</label><br>
-                    <!-- </select> -->
                 </div>
-                <!-- <div class="col-75">
-                        <input type="checkbox" id="monday" name="monday">
-                        <label for="monday">Monday</label><br>
-                        <input type="checkbox" id="teusday" name="teusday">
-                        <label for="teusday">Teusday</label><br>
-                        <input type="checkbox" id="wednesday" name="wednesday">
-                        <label for="wednesday">Wednesday</label><br>
-                        <input type="checkbox" id="thursday" name="thursday">
-                        <label for="thursday">Thursday</label><br>
-                        <input type="checkbox" id="friday" name="friday">
-                        <label for="friday">Friday</label><br>
-                        <input type="checkbox" id="saturday" name="saturday">
-                        <label for="saturday">Saturday</label><br>
-                        <input type="checkbox" id="sunday" name="sunday">
-                        <label for="sunday">Sunday</label><br>
-                        </select>
-
-                    </div> -->
             </div>
         </div>
 
@@ -103,7 +83,7 @@
                 <div class="card-body">
 
                     <!-- <div class="col-25"> -->
-                    <label for="subject">Good Morning Message that you would like to recieve</label>
+                    <h4 class="card-title">Good Morning Message you would like to receive</h4>
 
                     <!-- <div class="col-75"> -->
                     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
@@ -112,8 +92,6 @@
 
 
         </div>
-
-
         <!-- Enable Checkbox -->
         <label for="myCheck">Enable</label>
         <input type="checkbox" id="myCheck" onclick="myFunction()">
